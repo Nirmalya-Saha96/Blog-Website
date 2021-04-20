@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Nirmalya Saha">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Signin</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+
+
+
+    <!-- Bootstrap CSS -->
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="theme-color" content="#7952b3">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="/css/styles2.css" rel="stylesheet">
+
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <p class="navbar-brand">DAILY JOURNAL</p>
+        </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li id="home"><a href="/">HOME</a></li>
+            <li id="about"><a href="/about">ABOUT US</a></li>
+            <li id="contact"><a href="/contact">CONTACT US</a></li>
+          </ul>
+      </div>
+    </nav>
+  </head>
+
+
+  <body>
+    <main class="form-signin">
+      <form action="/about" method="POST">
+        <img class="mb-4" src="https://cdn5.vectorstock.com/i/1000x1000/04/19/n-letter-logo-template-vector-11180419.jpg" alt="Logo" width="72" height="72">
+        <h1 class="h3 mb-3 fw-normal">Sign up to My Newsletter!</h1>
+
+        <div class="form-floating">
+          <input type="text" name="fName" class="form-control"  placeholder="First Name"  required autofocus>
+        </div>
+        <div class="form-floating">
+          <input type="text" name="lName" class="form-control"  placeholder="Last Name" required>
+        </div>
+        <div class="form-floating">
+          <input type="email" name="email" class="form-control"  placeholder="name@gmail.com" required>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+        <p class="mt-5 mb-3 text-muted">&copy; Nirmalya Saha</p>
+      </form>
+    </main>
+
+
+
+  </body>
+</html>

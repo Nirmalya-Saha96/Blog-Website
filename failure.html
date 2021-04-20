@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Failure</title>
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <p class="navbar-brand">DAILY JOURNAL</p>
+      </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li id="home"><a href="/">HOME</a></li>
+          <li id="about"><a href="/about">ABOUT US</a></li>
+          <li id="contact"><a href="/contact">CONTACT US</a></li>
+        </ul>
+    </div>
+  </nav>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid" style="background-color: lightyellow;">
+      <div class="container" style="padding: 10px;">
+        <h1 class="display-4">Uh oh!</h1>
+        <p class="lead">There was a problem signing up. Please try again or contact the developer</p>
+
+        <form  action="/failure" method="post">
+          <button class="btn btn-lg btn-warning" type="submit" name="button">Try Again</button>
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

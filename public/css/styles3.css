@@ -1,0 +1,128 @@
+.top_container{
+  background-color: #E4F9F5;
+}
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather',serif;
+}
+h1{
+
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
+  line-height: 2;
+  font-family: 'Sacramento',cursive;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+h3{
+  color: #119993;
+  font-family: 'Montserrat',sans-serif;
+}
+h4{
+  color: #119993;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.5rem;
+}
+hr{
+  background-color: white;
+  border-style: dotted none none;
+  width: 5%;
+  border-color: grey;
+  border-width: 5px;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 350px;
+  bottom: 300px;
+}
+.top_container{
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud{
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+.profile-photo{
+  margin-top: 15px;
+  border-radius: 100%;
+  width: 15%;
+  height: 10%;
+  text-align: left;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.skill-image{
+  border-radius: 100%;
+  width: 40%;
+  height: 40%;
+  float: left;
+  margin-right: 20px;
+}
+.mountain{
+  width: 50%;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.myButton {
+	box-shadow: -11px 11px 24px -4px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:16px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 35px;
+	text-decoration:none;
+	text-shadow:-2px 5px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  margin-top: 100px;
+  background-color: #66BFBF;
+  padding: 50px;
+}
+.copyright-message{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
