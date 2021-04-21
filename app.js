@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-Nirmalya:nirmalya@blogdb.vbpur.mongodb.net/blogDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-Nirmalya:<password>@blogdb.vbpur.mongodb.net/blogDB", {useNewUrlParser: true});
 
 const postSchema = {
   title: String,
@@ -93,11 +93,11 @@ app.post("/about", function(req, res){
 
   const jsonData = JSON.stringify(data);
 
-  const url = "https://us1.api.mailchimp.com/3.0/lists/eb93c22f25";
+  const url = "https://us1.api.nirmalyaEmailApiMailandChimp.com/3.0/lists/eb93c22f25";
 
   const options = {
     method: "POST",
-    auth: "nirmalya1:d2346af8d2f10923ad158feb0098367d-us1"
+    auth: "nirmalya1:d2346af8d2f10923ad158feb0098367d-us1<nirmalya-cancel>"
   };
 
   const request = https.request(url, options, function(response){
